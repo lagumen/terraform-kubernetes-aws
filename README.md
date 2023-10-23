@@ -1,4 +1,6 @@
 # Terraform boiler template to create an AWS EKS service resources
+<img width="851" alt="Screenshot 2023-10-23 at 11 07 27 AM" src="https://github.com/lagumen/terraform-kubernetes-aws/assets/14792464/744f520e-48c8-4659-a47d-f29dffd19925">
+
 
 These terraform manifests shall define over 40+ resources to form the Kubernetes cluster in AWS. Again, this VPC topology shall describe the creation of a redundant conection between two available AZ's in the "us-east-1" region. The intent here is to create EKS nodegroups, the corresponding security groups, EC2's, a Bastion host to enable access into the private domain, the corresponding IAM role associated to administer and manage EKS cluster and the associated worker nodes inside the VPC content.The Terraform boilerplate template is designed to facilitate the creation of AWS Elastic Kubernetes Service (EKS) resources. Within these Terraform manifests, there will be a comprehensive definition of more than 40 resources, all geared towards establishing a robust Kubernetes cluster within the AWS environment.
 
